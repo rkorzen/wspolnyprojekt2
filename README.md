@@ -14,7 +14,22 @@ git push origin main
 git clone <url-repo>
 
 
-
-
-
 # proba wypchniecia przy niezgodnej hist
+
+Przy próbie wypchnięcia zmian do repozytorium, gdy historia commitów jest niezgodna z repozytorium mamy kilka opcji:
+
+- git push --force - zmienia historię commitów na serwerze
+
+- git pull origin <branch> - pobiera najnowszą historię z repozytorium i stara się zmergować zmiany
+   - rozwiązanie konfliktów:
+      - manualne rozwiązanie konfliktów w plikach
+      - accept current change - przyjmuje zmiany z HEAD
+      - accept incoming change - przyjmuje zmiany z repozytorium
+      - accept both changes - przyjmuje zmiany z HEAD i repozytorium
+- git pull origin --rebase - pobiera najnowszą historię z repozytorium i stara się zmergować zmiany
+   - rozwiązanie konfliktów:
+      - manualne rozwiązanie konfliktów w plikach
+      - accept current change - przyjmuje zmiany z HEAD
+      - accept incoming change - przyjmuje zmiany z repozytorium
+      - accept both changes - przyjmuje zmiany z HEAD i repozytorium
+
