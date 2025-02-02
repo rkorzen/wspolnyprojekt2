@@ -33,3 +33,15 @@ Przy próbie wypchnięcia zmian do repozytorium, gdy historia commitów jest nie
       - accept incoming change - przyjmuje zmiany z repozytorium
       - accept both changes - przyjmuje zmiany z HEAD i repozytorium
 
+
+Jeśli lokalna praca nie jest jeszcze zcommitowana, to możemy zrobić taki scenariusz:
+
+- git stash - ukrywa zmiany
+- git pull origin <branch> - pobiera najnowszą historię z repozytorium
+- git stash apply - stosuje ukryte zmiany (lub git stash pop - zastosowanie i usunięcie ukrytej zmiany z wypisaniem)
+
+
+## Przydatne linki:
+
+
+
