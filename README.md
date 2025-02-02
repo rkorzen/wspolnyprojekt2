@@ -34,6 +34,7 @@ Przy próbie wypchnięcia zmian do repozytorium, gdy historia commitów jest nie
       - accept both changes - przyjmuje zmiany z HEAD i repozytorium
 
 
+
 Jeśli lokalna praca nie jest jeszcze zcommitowana, to możemy zrobić taki scenariusz:
 
 - git stash - ukrywa zmiany
@@ -45,3 +46,4 @@ Jeśli lokalna praca nie jest jeszcze zcommitowana, to możemy zrobić taki scen
 
 
 
+Moja zmiana
